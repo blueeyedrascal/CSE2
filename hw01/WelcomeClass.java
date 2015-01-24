@@ -3,6 +3,10 @@
 // Homework 1
 // Welcome Class Java Program
 //
+//  write program to create the pattern given
+//  compile and run java program
+//
+//
 //  define class
 public class WelcomeClass{
     
