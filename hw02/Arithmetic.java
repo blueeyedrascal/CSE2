@@ -30,11 +30,11 @@ public class Arithmetic {
                     
         // Calculations of cost and sales tax per item            
             totalSockCost$=nSocks*sockCost$;    //calculates total cost of socks
-            salesTaxSocks=totalSockCost$*taxPercent;    //calculates the sales tax on socks
+            salesTaxSocks=(int)((totalSockCost$*taxPercent)*100)/100.0;    //calculates the sales tax on socks
             totalGlassCost$=nGlasses*glassCost$;    //calculates total cost of glasses
-            salesTaxGlass=totalGlassCost$*taxPercent;   //calculates sales tax on glasses
+            salesTaxGlass=(int)((totalGlassCost$*taxPercent)*100)/100.0;   //calculates sales tax on glasses
             totalEnvelopeCost$=nEnvelopes*envelopeCost$;    //calculates total cost of box of envelopes
-            salesTaxEnvelopes=totalEnvelopeCost$*taxPercent;    //calculates sales tax on box of envelopes
+            salesTaxEnvelopes=(int)((totalEnvelopeCost$*taxPercent)*100)/100.0;    //calculates sales tax on box of envelopes
             
             totalCost$=totalSockCost$+totalGlassCost$+totalEnvelopeCost$;   //total cost of all items together
             totalPlusTax$=((totalCost$*taxPercent)+totalCost$)*100; //total cost with sales tax included and beginning of casting
