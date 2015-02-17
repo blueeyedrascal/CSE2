@@ -76,7 +76,7 @@ public class Cookies{
                 System.out.println("You need "+((nPeople*nPerPerson)-nCookies)+" more to have enough.");
             }//end main if statement
             else{
-                if((nPerPerson==nCookies/nPeople)||(0==nPerPerson%(nCookies/nPeople))){
+                if((nPerPerson==nCookies/nPeople)||(0==nCookies%nPeople)){
                    System.out.println("You have enough cookies and they will divide evenly."); 
                 }//end nested if statement
                 else{
