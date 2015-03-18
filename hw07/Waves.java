@@ -67,8 +67,9 @@ public class Waves{
             //write While loop to do the wave as well    
             System.out.println("WHILE LOOP: "); 
             
-            interval=0;
+            interval=0; //re-initialize variables to start again 
             start=0;
+            
             while(start<variable){
                 interval++;
                 
@@ -105,7 +106,7 @@ public class Waves{
             //write do-while loop to make another wave
             System.out.println("DO-WHILE LOOP: ");
             
-             interval=0;
+             interval=0; //re-initialize variables to start again
                 start=0;
                 
                 do{
