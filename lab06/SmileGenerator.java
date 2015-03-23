@@ -44,6 +44,7 @@ public class SmileGenerator{
         //Start Step 2: print a random number of smiley faces between 1 & 100
         int random = (int) (Math.random()*100) + 1; //provides a random number between 1 & 100
         initial=1; //gives a starting value
+        
         while(initial<=random){
             System.out.print(":)");
             initial++;
@@ -62,6 +63,7 @@ public class SmileGenerator{
         //Step 4: increase number of smiley faces per line by one 
         initial=1;
         counter=("");
+        
         while(initial<=random){
             counter=(counter+":)");
             System.out.println(counter);
