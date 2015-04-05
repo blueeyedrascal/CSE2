@@ -41,7 +41,7 @@ public class lab9{
     public static String adjectives(){
         
         Random randomGenerator= new Random();
-        int randomInt = randomGenerator.nextInt(10); //generates ints less than 10
+        int randomInt = randomGenerator.nextInt(9); //generates ints less than 10
         
         switch(randomInt){
             case 1: return "lazy";
@@ -62,7 +62,7 @@ public class lab9{
     public static String subNouns(){
         
         Random randomGenerator= new Random();
-        int randomInt = randomGenerator.nextInt(10); //generates ints less than 10
+        int randomInt = randomGenerator.nextInt(9); //generates ints less than 10
         
         switch(randomInt){
             case 1: return "dog";
@@ -82,7 +82,7 @@ public class lab9{
     public static String verbs(){
         
         Random randomGenerator= new Random();
-        int randomInt = randomGenerator.nextInt(10); //generates ints less than 10
+        int randomInt = randomGenerator.nextInt(9); //generates ints less than 10
         
         switch(randomInt){
             case 1: return "ran";
@@ -102,7 +102,7 @@ public class lab9{
     public static String objNouns(){
         
         Random randomGenerator= new Random();
-        int randomInt = randomGenerator.nextInt(10); //generates ints less than 10
+        int randomInt = randomGenerator.nextInt(9); //generates ints less than 10
         
         switch(randomInt){
             case 1: return "fence";
